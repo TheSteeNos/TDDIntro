@@ -6,7 +6,23 @@ function romanNumeralConverter(nInt) {
     while (nInt > 0) {
         let diff = 0;
 
-        if (nInt >= 50) {
+        if (nInt >= 500) {
+            output += "D";
+            diff = 500;
+        }
+        else if (nInt >= 400) {
+            output += "CD";
+            diff = 400;
+        }
+        else if (nInt >= 100) {
+            output += "C";
+            diff = 100;
+        }
+        else if (nInt >= 90) {
+            output += "XC";
+            diff = 90;
+        }
+        else if (nInt >= 50) {
             output += "L";
             diff = 50;
         }
