@@ -14,7 +14,9 @@ tester.isEqual(romanNumeralConverter(7), "VII", "Converting 7 to Roman");
 tester.isEqual(romanNumeralConverter(9), "IX", "Converting 9 to Roman");
 tester.isEqual(romanNumeralConverter(10), "X", "Converting 10 to Roman");
 tester.isEqual(romanNumeralConverter(40), "XL", "Converting 40 to Roman");
-
-
-
-
+tester.isEqual(romanNumeralConverter(50), "L", "Converting 50 to Roman");
+tester.isEqual(romanNumeralConverter(60), "LX", "Converting 60 to Roman");
+tester.isEqual(romanNumeralConverter(90), "XC", "Converting 90 to Roman");
+tester.isEqual(romanNumeralConverter(100), "C", "Converting 50 to Roman");
+tester.isEqual(romanNumeralConverter(400), "CD", "Converting 400 to Roman");
+tester.isEqual(romanNumeralConverter(500), "D", "Converting 500 to Roman");

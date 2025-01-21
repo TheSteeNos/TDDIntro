@@ -5,7 +5,16 @@ function romanNumeralConverter(nInt) {
     let output = "";
     while (nInt > 0) {
         let diff = 0;
-        if (nInt >= 10) {
+
+        if (nInt >= 50) {
+            output += "L";
+            diff = 50;
+        }
+        else if (nInt >= 40) {
+            output += "XL";
+            diff = 40;
+        }
+        else if (nInt >= 10) {
             output += "X";
             diff = 10;
         }
