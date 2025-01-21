@@ -3,7 +3,7 @@ import romanNumeralConverter from '../romanNumeral.mjs'
 
 const tester = test("Roman Numeral Tests");
 
-tester.dosNotThrowError(() => { romanNumeralConverter(1) }, "Roman numeral converter is defined");
+tester.doesNotThrowError(() => { romanNumeralConverter(1) }, "Roman numeral converter is defined");
 
 tester.isEqual(romanNumeralConverter(1), "I", "Converting 1 to Roman");
 tester.isEqual(romanNumeralConverter(2), "II", "Converting 2 to Roman");

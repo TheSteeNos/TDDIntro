@@ -7,9 +7,9 @@ console.log(BigInt);
 console.log(v);
 
 if (divide(Number.MAX_VALUE).toFixed(4) === v.toFixed(4)) {
-    console.log(`🟢 divide by LARG number`);
+    console.log(`🟢 divide by LARGE number`);
 } else {
-    console.log(`🔴 divide by LARG number`);
+    console.log(`🔴 divide by LARGE number`);
 }
 
 try {
