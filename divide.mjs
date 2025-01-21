@@ -1,7 +1,7 @@
 
 function divide(n) {
     if (n === 0) {
-        throw Error("Cant divid by 0");
+        throw Error("Cant divide by 0");
     }
 
     if (Number.isNaN(n)) {
